@@ -1,0 +1,131 @@
+/* RESET */
+*{
+margin:0;
+padding:0;
+box-sizing:border-box;
+}
+
+
+/* BODY */
+body{
+font-family:Arial;
+background:#0d0d0d;
+color:white;
+}
+
+
+/* MENU */
+#menu{
+padding:20px 60px;
+position:fixed;
+width:100%;
+background:#000;
+}
+
+#menu nav{
+display:flex;
+justify-content:space-between;
+align-items:center;
+}
+
+.logo{
+font-weight:bold;
+letter-spacing:2px;
+}
+
+.links a{
+margin-left:25px;
+text-decoration:none;
+color:white;
+font-size:14px;
+transition:0.3s;
+}
+
+.links a:hover{
+color:#00c3ff;
+}
+
+
+/* HERO */
+#hero{
+height:100vh;
+display:flex;
+align-items:center;
+padding:0 60px;
+}
+
+.conteudo{
+display:flex;
+align-items:center;
+justify-content:space-between;
+width:100%;
+}
+
+
+/* TEXTO */
+.texto{
+max-width:500px;
+}
+
+.texto h1{
+font-size:48px;
+margin-bottom:20px;
+}
+
+.texto p{
+color:#ccc;
+margin-bottom:25px;
+}
+
+.texto button{
+padding:12px 25px;
+background:white;
+color:black;
+border:none;
+cursor:pointer;
+font-weight:bold;
+transition:0.3s;
+}
+
+.texto button:hover{
+background:#ccc;
+}
+
+
+/* IMAGEM */
+.imagem img{
+width:400px;
+border-radius:20px;
+}
+
+
+/* SEÇÕES */
+section{
+padding:120px 60px;
+min-height:100vh;
+}
+
+
+/* SOBRE / PROJETOS / CONTATO */
+section h1{
+margin-bottom:20px;
+font-size:36px;
+}
+
+section p{
+margin-bottom:10px;
+color:#ccc;
+}
+
+#sobre p{
+margin-bottom:20px;
+}
+
+#sobre ul{
+margin-top:20px;
+margin-bottom:20px;
+}
+
+#sobre li{
+margin-bottom:10px;
+}
